@@ -69,16 +69,16 @@ Export results as structured JSON report
 8) Intallations 
 
 # Clone the repo
-git clone <your-repo-link>
-cd <repo-folder>
+`git clone <your-repo-link>`
+`cd <repo-folder>`
 
 # Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+`python -m venv venv`
+`source venv/bin/activate`   # Mac/Linux
+`venv\Scripts\activate`      # Windows
 
 # Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 9) Usage
-streamlit run app_extended.py
+`streamlit run app_extended.py`
