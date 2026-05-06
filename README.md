@@ -58,13 +58,15 @@ Gradient Boosting (for comparison)
 📄 6. Report Generation
 Export results as structured JSON report
 
-7)Project Structure
+## 7) Project Structure
 
-  ├── app_extended.py     # Streamlit frontend (main app) :contentReference[oaicite:1]{index=1}
-  ├── core.py             # Backend logic (ML + feature extraction) :contentReference[oaicite:2]{index=2}
-  ├── extensions.py       # Advanced features (evaluation, ablation, reports) :contentReference[oaicite:3]{index=3}
-  ├── DQ_Framework_MUJ_Report.docx  # Research report  
-
+```bash
+.
+├── app_extended.py              # Streamlit frontend (main application)
+├── core.py                      # Backend logic (ML pipeline + feature extraction)
+├── extensions.py                # Advanced utilities (evaluation, ablation studies, reporting)
+└── DQ_Framework_MUJ_Report.docx # Research report/documentation
+```
 
 8) Intallations 
 
